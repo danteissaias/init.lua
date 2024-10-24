@@ -3,8 +3,14 @@ return {
 		"datsfilipe/vesper.nvim",
 		priority = 1000,
 		opts = { italics = {} },
+	},
+	{
+		"catppuccin/nvim",
+		lazy = false,
+		name = "catppuccin",
+		priority = 1000,
 		init = function()
-			vim.cmd.colorscheme("vesper")
+			vim.cmd.colorscheme("catppuccin")
 		end,
 	},
 }
