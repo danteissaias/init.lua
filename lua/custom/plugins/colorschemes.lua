@@ -1,16 +1,16 @@
 return {
 	{
-		"datsfilipe/vesper.nvim",
-		priority = 1000,
-		opts = { italics = {} },
-	},
-	{
-		"catppuccin/nvim",
+		"folke/tokyonight.nvim",
 		lazy = false,
-		name = "catppuccin",
 		priority = 1000,
+		opts = {
+			style = "night",
+			on_colors = function(colors)
+				colors.border = "#565f89"
+			end,
+		},
 		init = function()
-			vim.cmd.colorscheme("catppuccin")
+			vim.cmd.colorscheme("tokyonight")
 		end,
 	},
 }
