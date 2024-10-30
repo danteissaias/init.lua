@@ -17,7 +17,7 @@ return {
 				typescript = { "biome-check", "prettierd", stop_after_first = true },
 				typescriptreact = { "biome-check", "prettierd", stop_after_first = true },
 				json = { "biome-check", "prettierd", stop_after_first = true },
-
+				yaml = { "yamlls" },
 				lua = { "stylua" },
 				css = { "prettierd" },
 			},
