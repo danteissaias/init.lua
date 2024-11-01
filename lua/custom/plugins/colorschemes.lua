@@ -9,8 +9,13 @@ return {
 				colors.border = "#565f89"
 			end,
 		},
+	},
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000,
 		init = function()
-			vim.cmd.colorscheme("tokyonight")
+			vim.cmd.colorscheme("catppuccin")
 		end,
 	},
 }
