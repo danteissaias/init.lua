@@ -6,7 +6,7 @@ vim.opt.mouse = "a"
 vim.opt.showmode = false
 
 vim.schedule(function()
-	vim.opt.clipboard = "unnamedplus"
+  vim.opt.clipboard = "unnamedplus"
 end)
 
 vim.opt.title = true
@@ -39,4 +39,4 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- Don't have `o` add a comment
-vim.opt.formatoptions:remove("o")
+vim.opt.formatoptions:remove "o"
