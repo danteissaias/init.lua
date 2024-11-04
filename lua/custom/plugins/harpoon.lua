@@ -14,7 +14,7 @@ return {
         harpoon.ui:toggle_quick_menu(harpoon:list())
       end)
 
-      local keys = { "n", "m", ",", "." }
+      local keys = { "a", "s", "q", "w" }
       -- Set <space>1..<space>5 be my shortcuts to moving to the files
       for _, idx in ipairs { 1, 2, 3, 4 } do
         vim.keymap.set("n", string.format("<C-%s>", keys[idx]), function()
