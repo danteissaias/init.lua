@@ -2,6 +2,8 @@ return {
   {
     "stevearc/oil.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },
+    -- Otherwise netrw doesn't get disabled
+    lazy = false,
     keys = {
       { "-", ":Oil<CR>", silent = true },
     },

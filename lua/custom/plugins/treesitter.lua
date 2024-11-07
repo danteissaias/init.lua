@@ -18,4 +18,11 @@ return {
     "folke/todo-comments.nvim",
     opts = {},
   },
+  -- TODO: Remove when https://github.com/neovim/neovim/pull/30501
+  {
+    "folke/ts-comments.nvim",
+    opts = {},
+    event = "VeryLazy",
+    enabled = vim.fn.has "nvim-0.10.0" == 1,
+  },
 }
