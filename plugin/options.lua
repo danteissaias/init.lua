@@ -1,6 +1,9 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Fix bun watch mode
+vim.opt.backupcopy = "yes"
+
 vim.opt.mouse = "a"
 
 vim.opt.showmode = false

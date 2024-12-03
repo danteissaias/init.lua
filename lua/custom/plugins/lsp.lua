@@ -70,6 +70,7 @@ return {
             typescript = {
               preferences = { importModuleSpecifier = "non-relative" },
               updateImportsOnFileMove = { enabled = "always" },
+              tsserver = { maxTsServerMemory = 8192 },
             },
           },
         },

@@ -24,6 +24,7 @@ return {
       vim.keymap.set("n", "<leader>sf", builtin.find_files)
       vim.keymap.set("n", "<leader>sg", builtin.live_grep)
       vim.keymap.set("n", "<leader>sb", builtin.buffers)
+      vim.keymap.set("n", "<leader>ss", builtin.lsp_dynamic_workspace_symbols)
     end,
   },
 }

@@ -19,6 +19,7 @@ return {
         javascript = { "biome-check", "prettierd", stop_after_first = true },
         javascriptreact = { "biome-check", "prettierd", stop_after_first = true },
         json = { "biome-check", "prettierd", stop_after_first = true },
+        jsonc = { "biome-check", "prettierd", stop_after_first = true },
         yaml = { "prettierd" },
         lua = { "stylua" },
         css = { "biome-check", "prettierd", stop_after_first = true },

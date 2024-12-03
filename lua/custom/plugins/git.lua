@@ -1,6 +1,9 @@
 return {
   {
     "lewis6991/gitsigns.nvim",
+    keys = {
+      { "<Leader>gb", ":Gitsigns blame<CR>", silent = true },
+    },
     opts = {
       signs = {
         add = { text = "+" },
@@ -21,6 +24,9 @@ return {
     keys = {
       { "<Leader>ng", ":Neogit<CR>", silent = true },
     },
-    config = true,
+    init = function()
+      local neogit = require "neogit"
+      neogit.setup { graph_style = "kitty" }
+    end,
   },
 }
